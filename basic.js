@@ -70,40 +70,58 @@
 // console.log(as);
 
 
-var shirt=450
-var jeans=1200
-var shoe=2500
-var bag=350
-var sums=450*3
-var sumj=1200*2
-var sumsh=2500
-var sumb=350*4
-var td=sums+sumj+sumsh+sumb
-var dc=200
-var fd=td*15/100
-var sd=td*5/100
-var ttd=fd+sd
-var ad=td-ttd
-var gst=(ad +dc)*18/100
-var fb=gst+ad+dc
-var ap=3000
-var rp=fb-ap
-var tss=fd+sd
+// var shirt=450
+// var jeans=1200
+// var shoe=2500
+// var bag=350
+// var sums=450*3
+// var sumj=1200*2
+// var sumsh=2500
+// var sumb=350*4
+// var td=sums+sumj+sumsh+sumb
+// var dc=200
+// var fd=td*15/100
+// var sd=td*5/100
+// var ttd=fd+sd
+// var ad=td-ttd
+// var gst=(ad +dc)*18/100
+// var fb=gst+ad+dc
+// var ap=3000
+// var rp=fb-ap
+// var tss=fd+sd
 
 
 
-console.log(sums);
-console.log(sumj);
-console.log(sumsh);
-console.log(sumb);
-console.log(td);
-console.log(fd);
-console.log(sd);
-console.log(ttd);
-console.log(dc);
-console.log(ad);
-console.log(gst);
-console.log(fb);
-console.log(ap);
-console.log(rp);
-console.log(tss);
+// console.log(sums);
+// console.log(sumj);
+// console.log(sumsh);
+// console.log(sumb);
+// console.log(td);
+// console.log(fd);
+// console.log(sd);
+// console.log(ttd);
+// console.log(dc);
+// console.log(ad);
+// console.log(gst);
+// console.log(fb);
+// console.log(ap);
+// console.log(rp);
+// console.log(tss);
+
+var array =[200,150,300,250]
+console.log(array[0]);
+console.log(array[1]);
+console.log(array[2]);
+console.log(array[3]);
+
+console.log(array[0]+array[1]+array[2]+array[3]);
+
+var totalsum=array[0]+array[1]+array[2]+array[3]
+console.log(totalsum);
+
+console.log(totalsum>800);
+
+console.log(totalsum>500 && totalsum<1000);
+
+
+
